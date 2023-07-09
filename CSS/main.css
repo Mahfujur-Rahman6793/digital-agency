@@ -1,0 +1,24 @@
+.headeroption{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(171, 182, 187);
+    padding: 25px 0;
+}
+.title{
+    color: aqua;
+    font-size: 19px;
+}
+.logo{
+    display: flex;
+}
+.menus > ul {
+    display: flex;
+    align-items: center;
+}
+.menus li{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 30px;
+    font-size: 19px;
+}
