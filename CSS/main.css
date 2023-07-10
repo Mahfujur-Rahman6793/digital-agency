@@ -85,3 +85,80 @@
 .parent{
     gap: 20px;
 }
+
+/* start main section */
+.services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    background-image: url('../asset/image/footer-bg.png'),linear-gradient(rgb(43, 41, 41),rgb(10, 8, 8));
+    background-blend-mode: overlay;
+    height: 100vh;
+    width: 100%;
+    padding: 50px;
+
+}
+.image{
+    width: 100px;
+    height: 100px;
+}
+.learning{
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
+   
+    
+}
+.two-div{
+    display: flex;
+    margin: 10px;
+}
+.singleservice{
+    box-shadow: 4px 4px 4px gray;
+    margin: 15px;
+    padding: 25px;
+    text-align: center;
+    background-color: white;
+    height: 300px;
+    width: 300px;
+}
+.singleservice > img{
+    margin-bottom: 50px;
+}
+.list{
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.text{
+    width: 50%;
+    font-size: 22px;
+    color: white;
+}
+.text h3{
+    font-size: 70px; 
+}
+.datails{
+    display: flex;
+    align-items: center;   
+    
+}
+.information{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid red;
+    padding: 20px;
+}
+.information img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    padding-right: 20px;
+}
+.rightside{
+    margin-left: 20px;
+}
+small{
+    font-size: 12px;
+}
