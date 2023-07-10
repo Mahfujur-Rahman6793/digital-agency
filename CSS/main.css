@@ -162,3 +162,35 @@
 small{
     font-size: 12px;
 }
+.contact-section{
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgb(209, 29, 29);
+    color: white;
+    display: flex;
+    border-radius: 10px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -100px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    padding-right: 15px;
+    border-right: 1px solid rgb(71, 66, 66);
+    width: 40%;
+}
+.phone-number{
+    font-size: 50px;
+}
+.contact-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-details{
+    width: 70%;
+}
